@@ -1,0 +1,172 @@
+<html>
+<head>
+<style>
+		* {
+			box-sizing: border-box;
+		}
+		body {
+			 margin:0;
+			 font-family: Arial;
+			 padding: 10px;
+			 background-image: url();
+		}
+		/*style the header */
+		.header {
+			background-color: black;
+			padding: 20px;
+			text-align: center;
+			color: white;
+		}
+		.header h1 {
+			font-size: 50px;
+		}
+		/*style the top navigation bar*/
+		.topnav {
+			overflow: hidden;
+			background-color: lightblue;
+		}
+		/* style the topnav links */
+		.topnav a {
+			float: left;
+			display: block;
+			color: gray;
+			text-align: center;
+			padding: 14px 16px;
+			text-decoration: none;
+		}
+		/*Change color on hover*/
+		.topnav a :hover {
+			background-color: lightblue;
+			color:black;
+		}
+		/* Create two unequal columns that floats next to each other */
+		/* left column */
+		.leftcolumn {
+			float: left;
+			width: 75%;
+		}
+		/* right column */
+		.rightcolumn {
+			float:left;
+			width: 25%;
+			background-color: lightblue;
+			padding-left: 20px;
+		}
+		/* Fake image */
+		.fakeimg {
+			background-color: black;
+			width:100%;
+			padding: 20px;
+		}
+		/* add a card effect for articales */
+		.card {
+			background-color: black;
+			padding:20px;
+			marfin-top:20px;
+			font-style: white;
+			color: white;
+		}
+		/* Clear floats after the culumns */
+		.row::after {
+			content: "";
+			display: table;
+			clear:both;
+		}
+		/* Footer */
+		.footer {
+			padding: 20px;
+			text-align: center;
+			background: white;
+			margin-top: 20px;
+		}
+		/* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of nexr to each other */
+		@media screen and (max-width: 500px) {
+			.leftcolumns, .rightcolumn {
+				width:100px;
+				padding:0;
+			}
+		}
+		/* Responsive layout - when the screen is less than 400px wide, make the navigation links stack on top each other instead of next to each other */
+		@media screen and (max-width: 500px) {
+			.topnav a{
+				float: none;
+				width: 100%;
+
+			}
+		}
+
+	</style>
+</head>
+<body>
+	<div class="header">
+		<img src="bl.jpg"height="120%"width="100%">
+		<h1>THIS IS ABOUT SUPERCAR</h1>
+		<p></p>
+	</div>
+
+	<div class="topnav">
+		<a href="home.html">Link1</a>
+		<a href="#">Link2</a>
+		<a href="#">Link3</a>
+		<a href="#" style="float: right;">link4</a>
+	</div>
+	<div class="row">
+		<div class="leftcolumn">
+			<div class="card">
+				<h2> PORSCHE GT3 RS</h2>
+				<img src="gt3rs.jpg"height="160%"width="100%">
+				<p>Dr. Ing. h.c. F. Porsche AG, atau lebih dikenal sebagai Porsche AG (pelafalan dalam bahasa Jerman: [ˈpɔʁʃə]), adalah sebuah produsen otomotif asal Jerman yang berspesialisasi di produksi mobil sport, SUV, dan sedan.</p>
+			</div>
+			<div class="card">
+				<h2>FERRARI STRADALE </h2>
+				<img src="stradale.jpg"height="150%"width="100%%">
+				<p>Ferrari adalah perusahaan Italia yang memproduksi mobil sport sejak tahun 1947, namun sejarahnya dimulai pada tahun 1929 ketika Enzo Ferrari membentuk tim balap Scuderia Ferrari . Pada Januari 2016, Ferrari resmi memisahkan diri dari mantan perusahaan induknya Fiat Chrysler Automobiles </p>
+			</div>
+			<div class="card">
+				<h2>LAMBORGHINI AVENTADOR SVJ</h2>
+				<img src="svjjj.jpg"height="150%"width="100%">
+				<p>Automobili-Lamborghini S.p.A., sering disebut Lamborghini adalah sebuah perusahaan pembuat mobil di Italia. Perusahaan ini didirikan oleh Ferruccio Lamborghini pada tahun 1963, dengan tujuan untuk menghasilkan mobil grand wisata yang dapat bersaing dengan mobil yang telah ada dipasaran terlebih dahulu seperti Ferrari.</p>
+			</div>
+	</div>
+	<div class="rightcolumn">
+		<div class="card">
+			<img src="logos.jpeg"height="50%"width="100%">
+		</div>
+		<div class="card">
+	  		<img0 src="porsche.jpg"height="50%"width="100%">
+	  	    <p></p>
+		</div>
+		<div class="card">
+			<img src="fr.jpg"height="60%"width="100%">
+		</div>
+		<div class="card">		
+			<img src="enggine.jpg"height="50%"width="100%">
+		</div>
+		<div class="card">		
+			<img src="gt4rs.jpg"height="100%"width="100%">
+		</div>
+		<div class="card">		
+			<img src="spedo.jpg"height="55%"width="100%">
+		</div>
+		<div class="card">		
+			<img src="ban.jpg"height="65%"width="100%">
+		</div>
+		<div class="card">		
+			<img src="p1.jpg"height="65%"width="100%">
+		</div>
+		<div class="card">	
+			<h3>Popular Post</h3>
+			<img src="tiktok.jpg"height="9%" width="25%">
+			<img src="igg.jpg"height="10%" width="25%">
+		</div>
+		<div class="card">
+			<h3>Follow Me</h3>
+			<p>@fryzsss</p>
+		</div>
+	</div>
+</div>
+<div class="footer">
+	<h2>THANK YOU FROM BABENG BJIR</h2>
+</div>
+</body>
+	</html>
